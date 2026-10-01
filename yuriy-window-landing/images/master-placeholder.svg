@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="600" viewBox="0 0 560 600">
+  <rect width="560" height="600" fill="#dfe5d8"/><path fill="#eaf0e3" d="M335 0h225v600H335z"/><path fill="#f9faf1" d="M370 65h155v325H370z"/><path fill="#c1d4c5" d="M383 78h129v298H383z"/><path fill="#f9faf1" d="M443 78h9v300h-9zM383 224h129v9H383z"/>
+  <circle cx="259" cy="220" r="74" fill="#bbc7b2"/><path fill="#9eaf98" d="M186 208q-4-89 77-88 77 4 72 88-45-38-85-26-37 5-64 26"/><path fill="#78927c" d="M107 600V439q4-122 152-123 152 2 152 123v161z"/><path fill="#e0e7d9" d="m218 319 41 58 43-58-15 165h-52z"/><path fill="#5e7c67" d="m218 319-46 30 41 84 46-56zM302 319l45 30-40 84-48-56z"/>
+  <rect x="315" y="439" width="50" height="55" rx="5" fill="#91a58b"/><path stroke="#d6e0ce" stroke-width="5" d="M323 451h34"/><text x="280" y="559" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" letter-spacing="3" fill="#eef3e9">ЮРИЙ ВАСИЛЬЕВ</text>
+</svg>
