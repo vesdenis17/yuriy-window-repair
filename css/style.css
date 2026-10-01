@@ -205,3 +205,6 @@ body.messenger-open{overflow:hidden}
   .messenger-option{transition:none}
   .messenger-option:hover,.messenger-option:active{transform:none}
 }
+
+/* Названия мессенджеров по центру без изменения размеров карточек. */
+.messenger-options .messenger-option{align-items:center;justify-content:center;text-align:center}
