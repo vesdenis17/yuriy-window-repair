@@ -1,0 +1,207 @@
+/* Единая цветовая и типографическая система сайта. */
+:root {
+  --color-bg: #F7F7F5;
+  --color-bg-alt: #F1F3EE;
+  --color-text: #111111;
+  --color-muted: #6B7280;
+  --color-accent: #2563EB;
+  --color-border: #E5E7EB;
+  --color-white: #FFFFFF;
+  --font-heading: "Manrope", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}body{margin:0;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}img{display:block;width:100%;height:auto}a:focus-visible{outline:3px solid var(--color-accent);outline-offset:6px}.container{width:min(1240px,calc(100% - 80px));margin-inline:auto}.header{border-bottom:1px solid var(--color-border)}.header-inner{min-height:104px;display:flex;align-items:center;justify-content:space-between;gap:30px}.brand{display:flex;gap:13px;align-items:center;font-size:17px;font-weight:800;letter-spacing:-.5px}.brand-icon{font-size:39px;font-weight:400;line-height:1}.brand small{display:block;color:var(--color-muted);font-size:10px;font-weight:500;letter-spacing:.1px;margin-top:5px}.navigation{display:flex;gap:30px;font-size:12px;font-weight:600}.navigation a:hover{color:var(--color-accent);text-decoration:underline;text-underline-offset:6px}.location{font-size:12px;white-space:nowrap}.location span{margin-right:8px}.hero{display:grid;grid-template-columns:1fr 1fr;gap:60px;padding-block:56px 76px;align-items:center}.eyebrow{font-size:10px;font-weight:800;letter-spacing:1.7px;margin:0 0 23px;display:flex;align-items:center;gap:9px}.status-dot{width:7px;height:7px;border-radius:50%;background:var(--color-accent)}h1{font-size:clamp(56px,6.5vw,84px);font-weight:500;line-height:1.04;letter-spacing:-5px;margin:0 0 27px}h1 em{font-style:normal;color:var(--color-accent)}.hero-description{max-width:370px;font-size:15px;line-height:1.8;color:var(--color-muted);margin:0 0 31px}.button{display:inline-flex;align-items:center;gap:40px;background:var(--color-accent);color:white;padding:18px 23px;border-radius:6px;font-size:12px;font-weight:700;transition:background .2s}.button:hover{background:var(--color-accent)}.button span{font-size:20px}.hero-note{display:flex;align-items:center;gap:12px;margin-top:39px}.note-line{height:35px;width:2px;background:var(--color-accent)}.hero-note p{font-size:11px;font-weight:700;margin:0}.hero-note small{display:block;font-size:10px;font-weight:400;color:var(--color-muted);margin-top:5px}.hero-visual{position:relative;border-radius:12px;overflow:hidden;background:var(--color-bg-alt)}.hero-visual>img{aspect-ratio: .88;object-fit:cover}.image-label{position:absolute;top:20px;left:20px;font-size:8px;letter-spacing:1.4px;background:var(--color-white);padding:8px 11px;border-radius:3px;color:var(--color-muted)}.visual-card{position:absolute;bottom:65px;left:25px;right:25px;background:var(--color-white);border:1px solid var(--color-white);padding:20px;display:flex;align-items:center;gap:14px;border-radius:8px;font-size:13px;font-weight:700}.visual-card-icon{font-size:27px;color:var(--color-accent)}.visual-card small{display:block;font-size:10px;font-weight:400;color:var(--color-muted);margin-top:5px}.visual-caption{position:absolute;bottom:28px;left:26px;font-size:10px;color:var(--color-text)}.section{padding-block:76px}.problems{background:var(--color-bg-alt)}.section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:50px;margin-bottom:36px}h2{font-size:clamp(28px,3.3vw,42px);font-weight:500;line-height:1.2;letter-spacing:-1.8px;margin:0}.section-description{max-width:290px;margin:0;font-size:12px;line-height:1.8;color:var(--color-muted)}.problem-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.problem-card{position:relative;min-height:237px;padding:24px;background:var(--color-bg);border-radius:7px;border:1px solid var(--color-border)}.card-number{font-size:10px;color:var(--color-muted)}.problem-card h3{margin:33px 0 12px;font-size:16px;font-weight:700;letter-spacing:-.5px}.problem-card p{font-size:11px;line-height:1.8;color:var(--color-muted);max-width:200px;margin:0 0 30px}.card-symbol{position:absolute;right:22px;bottom:14px;color:var(--color-accent);font-size:28px}.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service-card{border:1px solid var(--color-border);border-radius:8px;padding:29px}.service-icon{display:grid;place-items:center;background:var(--color-bg-alt);height:45px;width:45px;border-radius:50%;font-size:24px;color:var(--color-accent)}.service-card h3{font-size:19px;letter-spacing:-.6px;margin:28px 0 14px}.service-card p{color:var(--color-muted);font-size:12px;line-height:1.8;margin:0 0 28px;max-width:270px}.service-tag{display:block;border-top:1px solid var(--color-border);padding-top:18px;font-size:10px;color:var(--color-accent)}.trust{display:grid;grid-template-columns:.9fr 1fr;gap:85px;border-top:1px solid var(--color-border);align-items:center}.master-visual{position:relative;overflow:hidden;border-radius:10px;background:var(--color-bg-alt)}.master-visual img{aspect-ratio:1;object-fit:cover}.master-name{font-size:20px;font-weight:700;margin:27px 0 12px}.master-description{font-size:13px;line-height:1.8;color:var(--color-muted);max-width:410px}.trust-points{margin-top:26px}.trust-points>div{display:flex;gap:17px;border-top:1px solid var(--color-border);padding:15px 0}.trust-points>div>span{color:var(--color-accent);font-size:20px}.trust-points p{margin:0}.trust-points strong{font-size:12px;font-weight:700}.trust-points small{display:block;color:var(--color-muted);font-size:10px;line-height:1.7;margin-top:4px}.prototype-note{color:var(--color-muted);font-size:9px;line-height:1.8;margin-top:22px}
+@media(min-width:1500px){.hero{gap:100px}.hero-visual>img{max-height:650px}}
+@media(max-width:1000px){.container{width:calc(100% - 48px)}.navigation{gap:18px;font-size:11px}.hero{gap:30px}h1{letter-spacing:-3px}.problem-grid{grid-template-columns:repeat(2,1fr)}.trust{gap:40px}.service-card{padding:22px}}
+@media(max-width:700px){.container{width:calc(100% - 36px)}.header-inner{min-height:100px;flex-wrap:wrap;gap:14px;padding-block:18px}.brand{font-size:15px}.brand small{font-size:9px}.brand-icon{font-size:32px}.navigation{order:3;width:100%;justify-content:space-between;gap:8px;font-size:10px}.location{font-size:10px}.hero{grid-template-columns:1fr;padding-block:38px 45px;gap:35px}h1{font-size:62px;letter-spacing:-3px}.hero-description{font-size:14px;max-width:400px}.hero-note{margin-top:26px}.hero-visual>img{aspect-ratio:1.1;object-position:center 62%}.section{padding-block:46px}.section-heading{display:block;margin-bottom:25px}.section-description{margin-top:20px;max-width:380px}.eyebrow{font-size:9px;margin-bottom:18px}h2{font-size:31px;letter-spacing:-1.3px}.problem-grid{gap:10px}.problem-card{padding:18px;min-height:232px}.problem-card h3{font-size:15px;margin-top:26px}.problem-card p{font-size:11px}.services-grid{grid-template-columns:1fr;gap:12px}.service-card{padding:24px}.service-card h3{margin-top:19px}.service-card p{max-width:none;margin-bottom:20px}.trust{grid-template-columns:1fr;gap:30px}.master-visual img{aspect-ratio:1.2}.visual-card{left:18px;right:18px;padding:16px}.visual-caption{left:20px}}
+@media(max-width:360px){h1{font-size:53px}.problem-grid{grid-template-columns:1fr}.problem-card{min-height:190px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+
+
+/* Header и Hero: новая палитра изолирована от остальных секций. */
+.header,.hero{color:var(--color-text);font-family:var(--font-body);background:var(--color-bg)}
+.header{border-color:var(--color-border)}
+.header-inner{min-height:112px;gap:24px;flex-wrap:nowrap}
+.header .brand{font-family:var(--font-heading);font-size:21px;letter-spacing:-.7px;white-space:nowrap}
+.header-info{font-size:12px;line-height:1.6;margin:0;color:var(--color-muted)}
+.header-contacts{display:flex;flex-direction:column;align-items:flex-end;gap:7px;flex-shrink:0}
+.whatsapp-link{font-size:12px;color:var(--color-accent);line-height:1.5;padding:4px 0}
+.whatsapp-link:hover{text-decoration:underline;text-underline-offset:4px}
+.header-phone{font-family:var(--font-heading);font-size:25px;font-weight:800;letter-spacing:-.8px;white-space:nowrap}
+.hero{width:100%;padding:64px max(40px,calc((100% - 1240px)/2)) 76px;gap:60px;grid-template-columns:1.15fr .85fr}
+.hero .eyebrow{font-size:14px;font-weight:500;letter-spacing:0;line-height:1.6;margin-bottom:24px;color:var(--color-accent)}
+.hero h1{font-family:var(--font-heading);font-size:clamp(36px,3.65vw,52px);font-weight:700;line-height:1.16;letter-spacing:-1.9px;margin-bottom:24px;overflow-wrap:break-word}
+.hero h1 span{color:var(--color-accent)}
+.hero .hero-description{font-size:18px;line-height:1.65;max-width:460px;margin-bottom:30px}
+.hero-actions{display:flex;flex-direction:column;align-items:flex-start;gap:17px}
+.hero .button{min-height:58px;font-size:15px;padding:17px 27px;gap:48px;border-radius:8px;background:var(--color-accent)}
+.hero .button:hover{background:var(--color-accent)}
+.hero-phone{font-size:12px;line-height:1.7;color:var(--color-muted);padding:10px 0}
+.hero-phone span{color:var(--color-text);white-space:nowrap;text-decoration:underline;text-underline-offset:4px}
+.master-photo{position:relative;min-height:480px;align-self:stretch;border:1px solid var(--color-border);border-radius:16px;background:var(--color-bg-alt);display:grid;place-items:center;overflow:hidden}
+.master-photo .yuri-image{position:absolute;inset:0;width:100%;height:100%;max-height:none;object-fit:cover;object-position:36% center;aspect-ratio:auto}
+.header a:focus-visible,.hero a:focus-visible{outline-color:var(--color-accent)}
+@media(max-width:1100px){.header-inner{gap:18px}.header-info{font-size:11px}.header .brand{font-size:18px}.header-phone{font-size:22px}.hero{padding-inline:24px;gap:32px}.master-photo{min-height:450px}}
+@media(max-width:800px){.header-inner{display:grid;grid-template-columns:1fr auto;gap:8px 20px;padding-block:18px}.header .brand{grid-column:1;grid-row:1;font-size:18px}.header-info{grid-column:1;font-size:11px}.header-contacts{grid-column:2;grid-row:1 / 4;gap:6px}.header-phone{font-size:22px}.whatsapp-link{min-height:36px;display:flex;align-items:center}.hero{grid-template-columns:1fr;gap:32px;padding-block:40px 48px}.hero h1{max-width:650px;font-size:44px}.master-photo{min-height:400px}.hero .hero-description{max-width:none}}
+@media(max-width:480px){.header-inner{width:calc(100% - 36px);grid-template-columns:1fr;gap:5px;padding-block:18px}.header .brand{grid-row:auto;font-size:20px}.header-info{font-size:12px}.header-contacts{grid-column:1;grid-row:auto;align-items:flex-start;margin-top:8px;gap:0}.header-phone{font-size:27px;min-height:44px;display:flex;align-items:center}.whatsapp-link{font-size:13px;min-height:44px}.hero{padding:32px 18px 42px}.hero .eyebrow{font-size:14px;margin-bottom:18px}.hero h1{font-size:34px;line-height:1.2;letter-spacing:-1.1px}.hero .hero-description{font-size:16px;margin-bottom:24px}.hero-actions{align-items:stretch;gap:8px}.hero .button{justify-content:space-between;width:100%;min-height:58px}.hero-phone{font-size:12px;padding-block:12px;min-height:44px}.master-photo{min-height:360px}.photo-caption{left:15px;right:15px;bottom:15px}}
+
+/* Масштабирование без растяжения; лицо остаётся в кадре. */
+@media(max-width:800px){.master-photo{min-height:0;aspect-ratio:1.2}.master-photo .yuri-image{object-position:center}}
+
+/* Уточнение иерархии только в Header и Hero. */
+.header .header-info{font-size:13px;color:var(--color-muted);font-weight:500}
+.hero h1{font-size:clamp(38px,3.65vw,52px);line-height:1.15}
+.hero h1 .hero-question{display:block;color:var(--color-text)}
+.hero h1 .hero-promise{display:block;margin-top:16px;font-size:.76em;line-height:1.28;letter-spacing:-1px;color:var(--color-accent);font-weight:600}
+@media(max-width:1100px){.header .header-info{font-size:12px}}
+@media(max-width:800px){.hero h1{font-size:42px}.hero h1 .hero-promise{max-width:570px}}
+@media(max-width:480px){.header .header-info{font-size:13px}.hero h1{font-size:30px;line-height:1.18;letter-spacing:-.9px}.hero h1 .hero-promise{font-size:24px;line-height:1.3;letter-spacing:-.5px;margin-top:14px}}
+@media(max-width:360px){.hero h1{font-size:28px}.hero h1 .hero-promise{font-size:22px}}
+
+/* Шрифты и лаконичные карточки только секции услуг. */
+.services{font-family:var(--font-body)}
+.services h2,.services h3{font-family:var(--font-heading)}
+.services .service-card p{margin-bottom:0;max-width:none}
+.services .section-description{max-width:360px}
+
+/* Знакомство с мастером: изолированные стили секции. */
+.trust{font-family:var(--font-body)}
+.trust h2,.trust .master-name,.trust-points strong{font-family:var(--font-heading)}
+.trust .master-visual img{aspect-ratio:1;object-fit:cover;object-position:36% center}
+.trust .master-description{max-width:none}
+.trust .trust-points .trust-number{font-size:11px;line-height:1.7;min-width:20px;padding-top:2px;color:var(--color-muted)}
+.trust .trust-points small{font-size:11px}
+@media(max-width:700px){.trust .master-visual img{aspect-ratio:1.2;object-position:center}}
+
+/* Отзывы: отдельная статичная сетка без влияния на предыдущие секции. */
+.reviews{border-top:1px solid var(--color-border);font-family:var(--font-body)}
+.reviews h2{font-family:var(--font-heading);max-width:900px}
+.reviews-description{font-size:13px;line-height:1.8;color:var(--color-muted);margin:22px 0 0}
+.reviews-heading{margin-bottom:36px}
+.reviews-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.review-card{border:1px solid var(--color-border);border-radius:8px;padding:30px;display:flex;flex-direction:column}
+.review-stars{color:var(--color-accent);letter-spacing:3px;font-size:15px;margin:0 0 22px}
+.review-card blockquote{margin:0 0 25px;flex:1}
+.review-card blockquote p{font-size:14px;line-height:1.85;margin:0}
+.review-author{font-size:12px;font-weight:600;margin:0;padding-top:18px;border-top:1px solid var(--color-border)}
+.reviews-source{display:inline-block;margin-top:28px;padding:8px 0;font-size:13px;line-height:1.8;text-decoration:underline;text-underline-offset:5px;text-decoration-color:var(--color-muted)}
+.reviews-source span{margin-left:8px;text-decoration:none;display:inline-block}
+.reviews-source:hover{text-decoration-color:currentColor}
+@media(max-width:700px){.reviews-grid{grid-template-columns:minmax(0,1fr);gap:12px}.review-card{padding:24px}.reviews-heading{margin-bottom:25px}.review-card blockquote p{font-size:13px}.reviews-source{font-size:12px}}
+
+/* Как это работает: стили ограничены новой секцией. */
+.workflow{font-family:var(--font-body);border-top:1px solid var(--color-border)}
+.workflow h2,.workflow h3{font-family:var(--font-heading)}
+.workflow-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;list-style:none;padding:0;margin:0}
+.workflow-card{border:1px solid var(--color-border);border-radius:8px;padding:25px}
+.workflow-number{display:block;color:var(--color-muted);font-size:11px;margin-bottom:30px}
+.workflow-card h3{font-size:17px;line-height:1.4;letter-spacing:-.5px;margin:0 0 14px}
+.workflow-card p{font-size:12px;line-height:1.8;color:var(--color-muted);margin:0}
+.workflow-actions{display:flex;align-items:center;gap:26px;margin-top:32px}
+.workflow-button{display:inline-flex;align-items:center;justify-content:space-between;gap:40px;min-height:58px;padding:17px 27px;background:var(--color-accent);color:var(--color-white);border-radius:8px;font-size:15px;font-weight:700}
+.workflow-button span{font-size:20px}
+.workflow-button:hover{background:var(--color-accent)}
+.workflow-phone{padding:12px 0;font-size:12px;line-height:1.8;color:var(--color-muted)}
+.workflow-phone span{white-space:nowrap;color:var(--color-text);text-decoration:underline;text-underline-offset:4px}
+.workflow a:focus-visible{outline-color:var(--color-accent)}
+@media(max-width:1000px){.workflow-grid{gap:12px}.workflow-card{padding:20px}.workflow-card h3{font-size:15px}}
+@media(max-width:700px){.workflow-grid{grid-template-columns:minmax(0,1fr)}.workflow-card{padding:24px}.workflow-number{margin-bottom:18px}.workflow-card h3{font-size:18px}.workflow-actions{flex-direction:column;align-items:stretch;gap:8px;margin-top:25px}.workflow-button{width:100%}.workflow-phone{min-height:44px}}
+
+/* Общие роли типографики и поверхностей, без изменения геометрии блоков. */
+h1,h2,h3{font-family:var(--font-heading)}
+.problem-card,.service-card,.review-card,.workflow-card{background:var(--color-white);border-color:var(--color-border)}
+.service-icon{background:var(--color-bg-alt);color:var(--color-accent)}
+.brand small,.eyebrow,.image-label,.visual-card small,.visual-caption,.hero-note,.service-tag,.prototype-note,.review-author,.photo-caption,.photo-caption span{font-family:var(--font-body)}
+
+/* Только mobile UX: desktop и tablet шире 700px остаются прежними. */
+@media (max-width:700px){
+  body{font-size:15px}
+  .header .brand,.header .header-info{display:none}
+  .header .header-inner{display:flex;min-height:0;padding-block:14px;gap:0}
+  .header .header-contacts{margin:0;align-items:flex-start;gap:2px}
+  .header .whatsapp-link{font-size:15px;min-height:44px;line-height:1.6;padding:8px 0}
+  .header .header-phone{font-size:27px;min-height:44px;line-height:1.4;display:flex;align-items:center}
+  .eyebrow,.hero .eyebrow{font-size:15px;line-height:1.6;letter-spacing:.7px}
+  .hero .hero-description{font-size:16px;line-height:1.7}
+  .hero .hero-phone,.workflow-phone{font-size:15px;line-height:1.7;min-height:44px}
+  .hero .button,.workflow-button{font-size:15px;min-height:58px}
+  .section-description,.problem-card p,.service-card p,.master-description,
+  .trust .trust-points small,.reviews-description,.review-card blockquote p,
+  .review-author,.reviews-source,.workflow-card p{font-size:15px;line-height:1.7}
+  .card-number,.workflow-number,.trust .trust-points .trust-number{font-size:15px;line-height:1.6}
+  .trust .trust-points strong{font-size:18px;line-height:1.4}
+  .problem-card h3,.service-card h3,.workflow-card h3{font-size:19px;line-height:1.4}
+  .problem-grid{grid-template-columns:minmax(0,1fr);gap:16px}
+  .problem-card{padding:24px;min-height:0}
+  .problem-card h3{margin:22px 0 14px}
+  .problem-card p{max-width:none;margin-bottom:30px}
+  .services-grid,.reviews-grid,.workflow-grid{gap:16px}
+  .service-card,.review-card,.workflow-card{padding:24px}
+  .trust .trust-points>div{padding-block:20px}
+  .trust .trust-points small{margin-top:8px}
+  .reviews-source{padding-block:12px;min-height:44px}
+}
+
+/* Выбор мессенджера; стили страницы вне открытого окна не изменяются. */
+body.messenger-open{overflow:hidden}
+.messenger-modal{width:min(480px,calc(100% - 32px));max-height:calc(100dvh - 32px);margin:auto;padding:32px;border:1px solid var(--color-border);border-radius:16px;background:var(--color-white);color:var(--color-text);font-family:var(--font-body);overflow-y:auto}
+.messenger-modal::backdrop{background:rgb(17 17 17 / 50%)}
+.messenger-modal h2{font-size:28px;line-height:1.25;letter-spacing:-.7px;margin:14px 0 16px;padding-right:12px}
+.messenger-modal>p{font-size:15px;line-height:1.7;color:var(--color-muted);margin:0 0 24px}
+.messenger-close{position:absolute;top:10px;right:10px;width:44px;height:44px;border:0;background:transparent;color:var(--color-text);font-size:28px;cursor:pointer}
+.messenger-options{display:grid;gap:12px}
+.messenger-option{display:flex;flex-direction:column;align-items:flex-start;gap:5px;width:100%;min-height:76px;padding:16px 20px;border:1px solid var(--color-border);border-radius:8px;background:var(--color-white);color:var(--color-text);font-family:var(--font-body);text-align:left;cursor:pointer;text-decoration:none}
+.messenger-option strong{font-size:17px;font-weight:600}
+.messenger-option span{font-size:15px;line-height:1.5;color:var(--color-muted)}
+.messenger-option:hover{border-color:var(--color-accent)}
+.messenger-option:focus-visible,.messenger-close:focus-visible{outline:2px solid var(--color-accent);outline-offset:3px}
+.messenger-modal .messenger-status{margin:20px 0 0;font-size:15px}
+@media(max-width:700px){.messenger-modal{padding:26px 20px}.messenger-modal h2{font-size:25px}}
+
+/* Микроанимации не влияют на размеры и поток документа. */
+.motion-hero{animation:gentle-appear 560ms ease-out both;animation-delay:var(--motion-delay,0ms)}
+.motion-reveal{opacity:0;transform:translateY(16px);transition:opacity 580ms ease-out,transform 580ms ease-out;transition-delay:var(--motion-delay,0ms)}
+.motion-reveal.is-visible{opacity:1;transform:none}
+@keyframes gentle-appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media(hover:hover) and (pointer:fine){
+  .hero .button,.workflow-button{transition:transform 220ms ease-out,box-shadow 220ms ease-out}
+  .hero .button:hover,.workflow-button:hover{transform:translateY(-2px);box-shadow:0 5px 14px rgb(17 17 17 / 10%)}
+}
+@media(max-width:700px){
+  .motion-reveal{transform:translateY(10px);transition-duration:500ms}
+  .motion-reveal.is-visible{transform:none}
+  .motion-hero{animation-name:gentle-appear-mobile;animation-duration:500ms}
+  @keyframes gentle-appear-mobile{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .motion-hero{animation:none}
+  .motion-reveal,.motion-reveal.is-visible{opacity:1;transform:none;transition:none}
+  .hero .button,.workflow-button{transition:none}
+  .hero .button:hover,.workflow-button:hover{transform:none;box-shadow:none}
+}
+
+/* Фирменное оформление только карточек выбора мессенджера. */
+.messenger-option{
+  border-color:transparent;
+  color:#fff;
+  transition:transform 220ms ease,box-shadow 220ms ease,filter 220ms ease;
+}
+.messenger-option[data-messenger="telegram"]{background:#229ED9}
+.messenger-option[data-messenger="max"]{background:linear-gradient(135deg,#0066FF 0%,#635BFF 50%,#A855F7 100%)}
+.messenger-option[data-messenger="whatsapp"]{background:#25D366}
+.messenger-option strong{color:#fff}
+.messenger-option span{color:rgba(255,255,255,.78)}
+.messenger-option[data-messenger="whatsapp"] span{color:rgba(255,255,255,.82)}
+.messenger-option:hover{border-color:transparent}
+.messenger-option:focus-visible{outline:3px solid var(--color-text);outline-offset:3px}
+@media(hover:hover) and (pointer:fine){
+  .messenger-option:hover{transform:translateY(-3px) scale(1.01);box-shadow:0 12px 30px rgba(0,0,0,.12);filter:brightness(1.03)}
+}
+.messenger-option:active{transform:translateY(-1px) scale(.995)}
+@media(hover:none),(pointer:coarse){.messenger-option{transition-duration:100ms}}
+@media(prefers-reduced-motion:reduce){
+  .messenger-option{transition:none}
+  .messenger-option:hover,.messenger-option:active{transform:none}
+}
